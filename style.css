@@ -1,3 +1,7 @@
+nav {
+  display:flex;
+  justify-content: space-between;
+}
 body {
   font-family: 'Manrope';
   font-size: 1em;
@@ -39,23 +43,39 @@ li {
   color:#F9F8FF;
 }
 
-.header,
-.footer {
-  background-color:white;
-}
-
-/*NE marche pas */
-.services {
+.contenu {
   border-bottom: 1px solid #8e86b5;
   border-right: 1px solid#8e86b5 ;
+  padding: 50px;
 }
 
 .contact {
-background-color: white ;
-border-radius: 50px;
+  background-color: white ;
+  border-radius: 50px;
 }
 
 /*réduire l'opacité à 0.5 au survol, dans les icônes de l'en-tête et du pied-de-page */
 .icon:hover {
-opacity: 0.5;
+  opacity: 0.5;
+}
+
+header,
+footer {
+  background-color:white;
+  padding: 20px 50px 20px;
+}
+
+section {
+  padding: 80px;
+}
+/*centrer le contenu*/
+.main-à-propos {
+  width: 50%;
+  margin:auto;
+}
+#services {
+  margin-top: 30px;
+}
+ul {
+  margin-top: 30px;
 }
