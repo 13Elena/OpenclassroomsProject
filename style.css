@@ -13,6 +13,7 @@ a:hover {
 
 }
 
+/*liens contact et portfolio: dégradé et pas souligné*/
 .cta:hover {
   text-decoration: none;
   background: linear-gradient(#696484, #8788ba);
@@ -52,4 +53,9 @@ li {
 .contact {
 background-color: white ;
 border-radius: 50px;
+}
+
+/*réduire l'opacité à 0.5 au survol, dans les icônes de l'en-tête et du pied-de-page */
+.icon:hover {
+opacity: 0.5;
 }
