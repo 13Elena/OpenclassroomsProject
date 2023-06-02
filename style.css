@@ -1,7 +1,55 @@
-a{
+body {
+  font-family: 'Manrope';
+  font-size: 1em;
+  background-color: #1F2039;
+}
+a {
   color: black;
+  text-decoration: none;
+  color:#242424;
+}
+a:hover {
+  text-decoration: underline;
+
 }
 
-span{
+.cta:hover {
+  text-decoration: none;
+  background: linear-gradient(#696484, #8788ba);
+}
+
+em {
   color: #A5B4FC;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3.5em;
+  color: #A5B4FC;
+}
+h2{
+  color:#F9F8FF;
+}
+
+p,
+li {
+  font-size: 1.1em;
+  color:#F9F8FF;
+}
+
+.header,
+.footer {
+  background-color:white;
+}
+
+/*NE marche pas */
+.services {
+  border-bottom: 1px solid #8e86b5;
+  border-right: 1px solid#8e86b5 ;
+}
+
+.contact {
+background-color: white ;
+border-radius: 50px;
 }
